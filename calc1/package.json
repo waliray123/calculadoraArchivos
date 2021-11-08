@@ -1,0 +1,25 @@
+{
+  "name": "tarea2",
+  "version": "1.0.0",
+  "description": "tarea 2 Archivos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "startdev": "nodemon ./src/index.js"
+  },
+  "keywords": [
+    "http",
+    "server",
+    "nodejs"
+  ],
+  "author": "Waliray",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

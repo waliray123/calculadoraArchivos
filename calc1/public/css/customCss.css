@@ -1,0 +1,109 @@
+@import "https://fonts.googleapis.com/css?family=Share+Tech+Mono";
+body {
+    background: antiquewhite;
+}
+
+#header {
+    text-align: center;
+    font-family: "Share Tech Mono", monospace;
+}
+
+#calc {
+    text-align: center;
+    width: 900px;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #abc6c2;
+    padding: 8px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #161a1d;
+}
+
+#display {
+    background: #b1a7a6;
+    padding: 8px;
+    margin: 16px 12px 10px 16px;
+    text-align: center;
+    font-family: "Share Tech Mono", monospace;
+    border-radius: 8px;
+}
+
+#result p {
+    font-size: 3em;
+}
+
+#result,
+#previous {
+    text-align: right;
+}
+
+#keyboard {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.row {
+    margin-top: 4px;
+}
+
+.last-row {
+    float: left;
+    margin-top: -11.5%;
+}
+
+.invisible {
+    width: 0;
+}
+
+.btn-zero {
+    width: 134px;
+}
+
+.btn-result {
+    float: right;
+    margin-left: 4px;
+    height: 74px;
+}
+
+.btn-custom {
+    background: #d3d3d3;
+    height: 100px;
+    width: 150px;
+    font-family: "Share Tech Mono", monospace;
+    border-radius: 8px;
+    font-size: xx-large;
+}
+
+.btn-custom2 {
+    background: #457b9d;
+    height: 100px;
+    width: 150px;
+    font-family: "Share Tech Mono", monospace;
+    border-radius: 8px;
+    font-size: xx-large;
+}
+
+h3 {
+    font-family: "Share Tech Mono", monospace;
+}
+
+#tablanums {
+    border-collapse: separate;
+    border-spacing: 40px 50px;
+}
+
+#container-back {
+    background-color: #ced4da;
+    width: 250px;
+    height: 285px;
+    border-radius: 5px;
+    position: absolute;
+    top: 35%;
+    left: 48%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
